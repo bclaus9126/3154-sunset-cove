@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3154 Sunset Cove - Honest Assessment</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f5f3ef;
+    color: #1f2a37;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 680px; margin: 0 auto; padding: 24px 20px 64px; }
+  .hero {
+    background: #1f2a37;
+    color: #fff;
+    padding: 36px 28px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+  }
+  .hero .eyebrow {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #c9b37d;
+    margin-bottom: 10px;
+  }
+  .hero h1 { font-size: 28px; font-weight: 600; margin-bottom: 8px; line-height: 1.25; }
+  .hero .sub { font-size: 15px; color: #c8d0db; }
+  .facts {
+    display: flex;
+    gap: 18px;
+    margin-top: 22px;
+    flex-wrap: wrap;
+  }
+  .fact {
+    flex: 1;
+    min-width: 140px;
+    background: rgba(255,255,255,0.06);
+    border-radius: 10px;
+    padding: 12px 14px;
+  }
+  .fact .label { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #9ba7b6; }
+  .fact .value { font-size: 18px; font-weight: 600; margin-top: 4px; }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 22px 24px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 3px rgba(31,42,55,0.06);
+  }
+  .intro p { margin-bottom: 12px; font-size: 16px; }
+  .intro .signoff { font-size: 14px; color: #5a6677; margin-top: 14px; line-height: 1.5; }
+  .diagnosis {
+    background: #fff;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 3px rgba(31,42,55,0.06);
+    overflow: hidden;
+  }
+  .diagnosis summary {
+    padding: 20px 24px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    color: #1f2a37;
+  }
+  .diagnosis summary::-webkit-details-marker { display: none; }
+  .diagnosis summary::after {
+    content: "+";
+    margin-left: auto;
+    font-size: 22px;
+    color: #9ba7b6;
+    font-weight: 300;
+    line-height: 1;
+    flex-shrink: 0;
+  }
+  .diagnosis[open] summary::after { content: "-"; }
+  .diagnosis .body {
+    padding: 0 24px 22px 24px;
+    font-size: 15px;
+    color: #3a4657;
+  }
+  .num {
+    background: #c9b37d;
+    color: #1f2a37;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .cta {
+    background: #c9b37d;
+    color: #1f2a37;
+    padding: 32px 28px;
+    border-radius: 14px;
+    margin-top: 24px;
+    text-align: center;
+  }
+  .cta h2 { font-size: 22px; margin-bottom: 8px; }
+  .cta p { font-size: 15px; margin-bottom: 18px; }
+  .contact {
+    background: rgba(31,42,55,0.08);
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 1.9;
+  }
+  .contact strong { display: block; font-size: 16px; margin-bottom: 4px; }
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    color: #7a8595;
+    margin-top: 28px;
+    padding: 0 10px;
+  }
+  @media (max-width: 480px) {
+    .wrap { padding: 16px 14px 48px; }
+    .hero { padding: 28px 22px; }
+    .hero h1 { font-size: 22px; }
+    .card, .diagnosis summary { padding-left: 20px; padding-right: 20px; }
+    .diagnosis .body { padding-left: 20px; padding-right: 20px; }
+    .fact { min-width: 100%; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Honest Assessment</div>
+      <h1>3154 Sunset Cove, New Braunfels</h1>
+      <div class="sub">Prepared for Sean Burnam by Brad Claus, JLA Realty</div>
+      <div class="facts">
+        <div class="fact">
+          <div class="label">Days on Market</div>
+          <div class="value">179</div>
+        </div>
+        <div class="fact">
+          <div class="label">Expired</div>
+          <div class="value">04/28/2026</div>
+        </div>
+        <div class="fact">
+          <div class="label">Last List Price</div>
+          <div class="value">$369,900</div>
+        </div>
+      </div>
+    </div>
+    <div class="card intro">
+      <p>Sean - a hundred and seventy-nine days is a long time to wait. Whether you had
+      somewhere you needed to be or just wanted this chapter behind you, six months on
+      the market without an offer takes a real toll. I looked at your listing the way a
+      buyer's agent would, and I think the story is actually pretty clear. Your home is
+      not the problem.</p>
+      <p>Below are the four things I think held it back - specifically, and with no pitch
+      attached. Each one is fixable.</p>
+      <div class="signoff">
+        Brad Claus<br>
+        JLA Realty
+      </div>
+    </div>
+    <details class="diagnosis" open>
+      <summary><span class="num">1</span>The price was set for a market that has moved on</summary>
+      <div class="body">
+        When this home first listed in April 2023 at $374,000, the New Braunfels market
+        was still near its peak. Since then it has corrected. The county tax authority
+        assessed this property at $332,500 for 2025 - a 10.7 percent drop from the prior
+        year. At $369,900, the listing was sitting above the range where active buyers in
+        this neighborhood are actually transacting. Buyers do the math quickly, and when
+        they find a better value a few streets over, they move on. Repricing to $329,900
+        - inside the real range, at a clean number - is the single move that changes
+        the equation.
+      </div>
+    </details>
+    <details class="diagnosis">
+      <summary><span class="num">2</span>A second expiration changes what buyers assume</summary>
+      <div class="body">
+        This is the second time this home has expired. The first listing ran from April
+        to September 2023, with a small reduction before being removed. This listing ran
+        179 more days at nearly the same price. Any buyer who has been actively searching
+        New Braunfels over the past two to three years has already seen this address -
+        and passed on it - twice. At that point it is not about the home. It is about
+        what the history signals. Buyers assume something was not disclosed, even when
+        nothing is wrong. A fresh MLS number, new photos, and a real launch day is the
+        only way to reset that perception completely.
+      </div>
+    </details>
+    <details class="diagnosis">
+      <summary><span class="num">3</span>An empty home is a hard home to fall in love with</summary>
+      <div class="body">
+        Every interior photo in your listing shows a fully vacant home. At this price
+        point, buyers are comparing your listing side by side with homes that are occupied
+        or professionally staged. Empty rooms photographed with wide-angle lenses feel
+        cold on screen - buyers cannot gauge how their furniture will fit, and they cannot
+        feel the warmth of the space. The living room and primary bedroom are where buyers
+        make the emotional decision to schedule a showing. Both were empty. Even light
+        staging in those two rooms transforms how a buyer connects with the home on their
+        first scroll.
+      </div>
+    </details>
+    <details class="diagnosis">
+      <summary><span class="num">4</span>No virtual tour filtered out a key part of the buyer pool</summary>
+      <div class="body">
+        Your listing had no virtual tour or video walkthrough. New Braunfels draws a
+        meaningful share of buyers from outside the immediate area - people relocating
+        from Austin, Dallas, or out of state who pre-screen listings online before
+        committing to a showing. A Matterport or video walkthrough is how those buyers
+        stay engaged long enough to put a home on their shortlist. Without it, a
+        179-day listing competing for attention against more media-rich options was
+        working at a disadvantage it did not need to have.
+      </div>
+    </details>
+    <div class="cta">
+      <h2>Let's have an honest conversation</h2>
+      <p>If any of this resonates, I would be glad to sit down and walk through what
+      a relist could look like. No pressure, no pitch.</p>
+      <div class="contact">
+        <strong>Brad Claus</strong>
+        JLA Realty<br>
+        (210) 787-8556<br>
+        Brad@theclausteam.com
+      </div>
+    </div>
+    <div class="footer">
+      Prepared 04/28/2026 by Brad Claus, JLA Realty. This page is a private
+      second-opinion prepared for the owner of 3154 Sunset Cove, New Braunfels.
+    </div>
+  </div>
+</body>
+</html>
